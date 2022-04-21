@@ -1,4 +1,5 @@
 import json
+from utils.util import input_taker, check_in, check_out
 
 class Morse:
     f = open("morse-code.json")
@@ -38,14 +39,8 @@ class Morse:
             return ''.join(val)
 
 
-
-def input_taker():
-    type_morse_ = input(f"Type 'morse' if you wish to convert from morse to text\n"
-                       "Type 'text' if you wish to convert text to morse.\n").lower()
-    val_ = input("Enter your string to perform the operation on\n")
-    return type_morse_, val_
-
-type_morse, val = input_taker()
-morse_made = Morse(type_morse, val)
+type_morse, val, out_type, in_type, in_file = input_taker()
+lines = check_in(in_file,val)
+morse_made = Morse(type_morse, lines)
 converted = morse_made.converter()
-print(converted)
+check_out(out_type, converted, type_morse)

@@ -4,15 +4,25 @@ Enter "text" or "morse" to convert from text or morse respectively, then enter y
 
 ## Check out the example below:
 If you enter "text" and then enter:
+
 SHRIA DEVARAKONDA
 
+
 In the output you will recieve:
+
 Converted string: ...\....\.-.\..\.-\ \-..\.\...-\.-\.-.\.-\-.-\---\-.\-..\.-
+
 
 Here, the space: ' ' is retained as a space itself. Converting it back is also the same.
 
+
 If you enter "morse" and then enter:
+
 ...\....\.-.\..\.-\ \-..\.\...-\.-\.-.\.-\-.-\---\-.\-..\.-
 
+
 In the output you will recieve:
+
 Converted string: shria devarakonda
+
+

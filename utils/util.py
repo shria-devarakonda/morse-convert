@@ -31,4 +31,5 @@ def input_taker():
     in_file=None
     if "y" in list(in_type):
         in_file = input("Please provide filename of the file to read.").lower()
+    print("Any occurrance of '*' in the output signifies that the character could not be converted.")
     return type_morse_, val_, out_type,in_type,in_file

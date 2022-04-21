@@ -36,7 +36,8 @@ class Morse:
                     val[i] = key_list[pos]
                 else:
                     val[i] = " "
-            return ''.join(val)
+            val = ''.join(val)
+            return ' '.join(val.split())
 
 
 type_morse, val, out_type, in_type, in_file = input_taker()

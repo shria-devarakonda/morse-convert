@@ -27,10 +27,10 @@ class Morse:
                 if val[i] in Morse.morse_dict.keys():
                     val[i] = Morse.morse_dict[val[i]]
                 else:
-                    val[i] = " "
-            return ' '.join(val)
+                    val[i] = "*"
+            return '\\'.join(val)
         else:
-            val = val.strip(' ').split(' ')
+            val = val.strip(' ').split('\\')
             key_list = list(Morse.morse_dict.keys())
             val_list = list(Morse.morse_dict.values())
             for i in range(len(val)):
@@ -38,7 +38,7 @@ class Morse:
                     pos = val_list.index(val[i])
                     val[i] = key_list[pos]
                 else:
-                    val[i] = " "
+                    val[i] = "*"
             val = ''.join(val)
             return ' '.join(val.split())
 

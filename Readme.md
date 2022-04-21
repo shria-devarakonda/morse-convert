@@ -10,7 +10,7 @@ SHRIA DEVARAKONDA
 
 *In the output you will recieve:*
 
-Converted string: ...\....\.-.\..\.-\ \-..\.\...-\.-\.-.\.-\-.-\---\-.\-..\.-
+Converted string: ...\\....\\.-.\\..\\.-\\ \\-..\\.\\...-\\.-\\.-.\\.-\\-.-\\---\\-.\\-..\\.-
 
 
 **_Here, the space: ' ' is retained as a space itself. Converting it back is also the same._**
@@ -18,7 +18,7 @@ Converted string: ...\....\.-.\..\.-\ \-..\.\...-\.-\.-.\.-\-.-\---\-.\-..\.-
 
 *If you enter "morse" and then enter:*
 
-...\....\.-.\..\.-\ \-..\.\...-\.-\.-.\.-\-.-\---\-.\-..\.-
+...\\....\\.-.\\..\\.-\\ \\-..\\.\\...-\\.-\\.-.\\.-\\-.-\\---\\-.\\-..\\.-
 
 
 *In the output you will recieve:*
